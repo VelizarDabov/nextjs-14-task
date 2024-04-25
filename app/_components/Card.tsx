@@ -22,7 +22,7 @@ const Card = () => {
         </h3>
       </div>
 
-      <div className="flex flex-col justify-center items-center  md:flex-row mt-16 gap-10 mb-[20rem] mx-10 md:mx-5 cursor-pointer ">
+      <div className="flex flex-col items-center   md:flex-row mt-16 gap-10 mb-[20rem] mx-10 md:mx-5 cursor-pointer ">
         <Image
           className="items-center "
           width={300}
@@ -31,11 +31,11 @@ const Card = () => {
           src={"/video.png"}
         />
 
-<div className="gap-10">
+<div className="">
           {cardsData.map((card, index) => (
             <div
               key={index}
-              className="flex items-center mt-5 gap-5 border hover:border-blue-500 rounded-md p-8 bg-gray-100 shadow-lg"
+              className="flex items-center mt-2 gap-5 border hover:border-blue-500 rounded-md p-8 bg-gray-100 shadow-lg"
               onMouseEnter={() => handleCardHover(index + 1)}
               onMouseLeave={() => handleCardHover(0)}
             >
