@@ -28,6 +28,6 @@
     ".next/types/**/*.ts",
     "components/ui/button.jsx",
     "app/_components/Hero.tsx"
-, "app/_components/Card.tsx"  ],
+, "app/_components/Card.tsx", "app/_constants/index.js"  ],
   "exclude": ["node_modules"]
 }
