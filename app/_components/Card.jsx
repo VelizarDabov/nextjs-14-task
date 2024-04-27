@@ -3,7 +3,7 @@ import { cardsData } from "../_constants";
 
 const Card = () => {
   return (
-    <div className="bg-[url('/background.png')] bg-cover bg-left-top">
+    <div className="">
       <div className="text-center mt-16 " id="card">
         <h1 className="text-3xl md:text-4xl font-bold">
           Managed agency selection
@@ -13,7 +13,8 @@ const Card = () => {
         </h3>
       </div>
 
-      <div className="flex flex-col items-center md:flex-row mt-16 gap-10 mb-[20rem] mx-10 md:mx-5 cursor-pointer ">
+      <div className="flex flex-col items-center md:flex-row mt-16 gap-10 mb-[20rem] mx-5 lg:mx-20 xl:ml-[25rem] cursor-pointer ">
+     
         <Image
           className="items-center "
           width={300}

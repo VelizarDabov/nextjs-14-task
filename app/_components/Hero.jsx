@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import Card from "./Card";
 import Link from "next/link";
+import Card from "./Card";
 
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-row items-center mt-5 gap-10">
+      <div className="flex flex-row items-center justify-center mt-5 gap-10">
         {/* header */}
         <div className="ml-3">
           <h1 className="flex flex-col text-3xl md:text-4xl font-bold">
@@ -35,7 +35,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="mt-36  ">
+      <div className=" mt-36 bg-[url('/backgroundimg.png')]">
         <Card />
       </div>
     </>
