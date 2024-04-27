@@ -13,7 +13,7 @@ const Card = () => {
         </h3>
       </div>
 
-      <div className="flex flex-col items-center md:flex-row mt-16 gap-10 mb-[20rem] mx-5 lg:mx-20 xl:ml-[25rem] cursor-pointer ">
+      <div className="flex flex-col items-center md:flex-row mt-16 gap-10 mb-[20rem] mx-10 lg:mx-20 xl:ml-[25rem] cursor-pointer ">
      
         <Image
           className="items-center "
