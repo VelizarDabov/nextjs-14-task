@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import React from "react";
 import Card from "./Card";
 import Link from "next/link";
 
@@ -36,7 +35,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="mt-36">
+      <div className="mt-36  ">
         <Card />
       </div>
     </>
