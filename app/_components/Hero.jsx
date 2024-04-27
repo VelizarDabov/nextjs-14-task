@@ -35,9 +35,12 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className=" mt-36 bg-[url('/backgroundimg.png')]">
-        <Card />
-      </div>
+      <div className="mt-36">
+  <div className=" bg-[url('/backgroundimg.png')] bg-contain bg-repeat-y  "  >
+    <Card />
+  </div>
+</div>
+
     </>
   );
 };
